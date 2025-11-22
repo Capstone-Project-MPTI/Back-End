@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧠 WasteSnap Backend
 
 Ini adalah backend dari aplikasi WasteSnap, dibangun menggunakan Node.js dan Express.js. Backend ini menangani autentikasi, manajemen data event, peta lokasi, dan menyediakan REST API yang diakses oleh frontend.
