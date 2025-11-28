@@ -5,7 +5,9 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['http://localhost:5173',
+  'https://sortify-capstone-mpti-kelompok-1.vercel.app'
+  ],
   credentials: true
 }));
 app.use(express.json());
