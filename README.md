@@ -1,6 +1,6 @@
-# 🧠 WasteSnap Backend
+# 🧠 Sortify Backend
 
-Ini adalah backend dari aplikasi WasteSnap, dibangun menggunakan Node.js dan Express.js. Backend ini menangani autentikasi, manajemen data event, peta lokasi, dan menyediakan REST API yang diakses oleh frontend.
+Ini adalah backend dari aplikasi sortify, dibangun menggunakan Node.js dan Express.js. Backend ini menangani autentikasi, manajemen data event, peta lokasi, dan menyediakan REST API yang diakses oleh frontend.
 
 ## 🚀 Fitur Utama
 
@@ -13,7 +13,7 @@ Ini adalah backend dari aplikasi WasteSnap, dibangun menggunakan Node.js dan Exp
 ## 📁 Struktur Folder
 
 ```
-WasteSnap-Backend-main/
+sortify-Backend-main/
 ├── config/               # Konfigurasi database
 │   └── db.js
 ├── controllers/          # Logika bisnis dari setiap route
@@ -47,8 +47,8 @@ WasteSnap-Backend-main/
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/WasteSnap-Backend.git
-cd WasteSnap-Backend-main
+git clone https://github.com/username/Backend.git
+cd Backend-main
 ```
 
 ### 2. Install Dependencies
@@ -60,7 +60,7 @@ npm install
 Buat file `.env` di root folder dengan isi berikut:
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/wastesnap
+MONGO_URI=mongodb://localhost:27017/sortify
 JWT_SECRET=your_super_secret_jwt_key_here
 NODE_ENV=development
 ```
@@ -177,7 +177,7 @@ kill -9 <PID>
 ### MongoDB Connection Error
 - Pastikan MongoDB service berjalan
 - Cek konfigurasi `MONGO_URI` di file `.env`
-- Pastikan database `wastesnap` sudah dibuat
+- Pastikan database `sortify` sudah dibuat
 
 ### JWT Token Issues
 - Pastikan `JWT_SECRET` di `.env` tidak kosong
@@ -191,11 +191,11 @@ Jika Anda mengalami masalah atau memiliki pertanyaan:
 
 ## 📄 Lisensi
 
-Proyek ini dilindungi hak cipta oleh tim WasteSnap. Untuk informasi lisensi dan kontribusi, silakan hubungi pengembang utama.
+Proyek ini dilindungi hak cipta oleh tim sortify. Untuk informasi lisensi dan kontribusi, silakan hubungi pengembang utama.
 
 ---
 
-**Dibuat dengan ❤️ oleh Tim WasteSnap**
+**Dibuat dengan ❤️ oleh Tim sortify**
 =======
 # Back-End
 >>>>>>> 7d1ba312941aa15eee6456284223fcbae3dd86d5
